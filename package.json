@@ -1,13 +1,12 @@
 {
   "name": "expense-tracker-mern",
   "version": "1.0.0",
-  "description": "Backend for expense tracker",
+  "description": "Backend for expense tracker"
   "main": "server.js",
   "scripts": {
     "start": "node server",
     "server": "nodemon server",
-    "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\"
+
   },
   "author": "Brad Traversy",
   "license": "MIT",
